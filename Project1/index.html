@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Owens Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+
+
+<body>
+    <div class="main">
+        <div class="banner">
+            <h1>Kye Owens</h1>
+        </div>
+        
+
+
+        <div class="about" id="about">
+            <h3>About Me</h3>
+            <img src="self_photo.jpeg" width="300" height="370"> 
+            <p>Howdy! My name is Kyle Owens. I am a student at Texas A&M pursuing a degree in <a href="https://engineering.tamu.edu/ce/index.html">Computer Engineering</a> and a minor in Mathematics.
+                I am expected to graduate Spring of 2023, and am looking to attend grad school to earn my Masters in Computer Science.
+                A few topics I am interested in are computer arcitecture, compilers, programming languages, and software development. At the
+                moment I am looking to gain experience in any field related to computer science or electrical engineering. Take a look around
+                my webpage, and feel to free to contact me if you have an question! Thanks and Gig 'em!
+            </p>    
+        </div>
+
+
+
+        <div class="service" id="service">
+            <h3>Service Activities</h3>
+            <div class="tutoring">
+                <h4>Tutoring</h4>
+                <p>For the past 4 year I have tutored students in my community in my free time. I teach high school students and
+                    college freshman, and primarily focus on high school math, physics, computer Science, and chemistry as my main tutored 
+                    subjects. I find it very fun and rewarding to help those around me with school, especially during the past few
+                    years with COVID and it being difficult for some kids to get the attention they needed to learn.
+                    I set up zoom calls with those around me in my neighborhood, or those who went to my old schools and would help
+                    them with what they needed.</p>
+            </div>
+
+
+            <div class="band">
+                <h4>Hullabaloo Pep Band</h4>
+                <p>I am a member of the <a href="https://linktr.ee/hullabalooband">TAMU Hullabaloo Pep Band</a>. This is a organization 
+                    which plays at all of the Women's Soccer, Women's Volleyball, Women's Basketball, and Men's Basketball home games at
+                    A&M. We have the goal of promoting school spirit, and to provide support to the A&M Athletics teams. If you ever
+                    attend any of the above sporting games listed above, you will hear to band play, chant, and cheer the whole game though.
+                </p>
+            </div>
+            <img src="band.jpg" width="350" height="175">
+        </div>
+    
+
+
+        <div class="resume" id="resume">
+            <h3>Resume</h3>
+            <p>Click <a href="resume.pdf" attributes-list download>here</a> to download my resume. It can be seen pasted below.
+                My unofficial transcript can also be seen <a href="transcript.pdf">here</a>.
+            <iframe src="resume.pdf" width="90%" height="500px"></iframe></p>
+        </div>
+    
+
+
+        <div class="projects" id="projects">
+            <h3>My Projects</h3>
+    
+            <div class="puzzle">
+                <h4>Slide Puzzle Solver</h4>
+                <p>I completed this project in a course offered at A&M called CSCE 462 Microcomputer Systems.
+                    The project uses a Raspberry Pi, camera, and an LCD Display. This is a device that is capable
+                    of solving a <a href="https://en.wikipedia.org/wiki/15_puzzle">15-slide puzzle</a> and presenting the solution to the user. 
+                    The device first takes a picture of the board in its unsolved state. Then, the image is sent to our image processing software,
+                    which whill identify the edges of the board and crop the image into 16 smaller piece(1 image for each tile). Then, a convolutional
+                    neural network will identify which number is on which tile. This information is passed to the puzzle solving algorithm, which uses
+                    a variation of the A* search algorithm to determine a method to solve the puzzle. Finally, the resulting moves will be presented to
+                    the user on an LCD Display that they can solve along with. More details about the project can be found in our 
+                    <a href="SlidePuzzleSolver_FinalReport.pdf">final report</a> and a demonstration of it working 
+                    can be seen <a href="https://www.youtube.com/embed/JxdvogXGEO8">here</a> or in the video shown on the screen.
+                </p>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/JxdvogXGEO8">
+                </iframe>
+    
+            </div>
+    
+            <div class="secdi">
+                <h4>Baby Sleep Monitoring</h4>
+                <p>During the summer of 2021 I participated in the <a href="https://sec.tamu.edu/">SEC Directed Internship</a> put together by Texas A&M.
+                This was a 7-week summer program, where my group was assigned the problem of finding a way to monitor a baby's breathing while it is sleeping
+                without touching the baby. We were tasked with creating a product, working out how it could be produced, estimated the financial gain/loss, and
+                then give a presentation to a team of industry professionals. The product we came up with was a thin pad that you woud put under the baby's matress
+                that would track the baby's breathing rate, and alert the parent if the baby every stopped breathing. Our final presentation for this can be viewed 
+                <a href="secdi.pdf">here</a> or downloaded <a href="secdi.pdf" attributes-list download>here</a>.
+                </p>
+            </div> 
+
+            <div class="website">
+                <h4>Personal Website</h4>
+                <p>This is the website you are currently viewing. More information about the processing of creating
+                    the website and the lessons learned from is will be writin in more detail in this section once
+                    the website is complete. All the files for this website can be found in my <a href="https://github.com/KyleDOwens/CSCE_315_Lab">github</a>.
+                    As progress is made on the website this section will be updated. There are plans to include multiple CSS styles for this website that can be
+                    changed at the click of a button. This project is giving me lots of experience working with HTML, CSS, and Javascript. The primary websites
+                    that I used to learn were <a href="https://www.codecademy.com/learn/learn-html">Code Academy</a> for HTML and 
+                    <a href="https://www.w3schools.com/css/">W3 School</a> for CSS.
+                </p>
+            </div>
+        </div>
+ 
+
+    <!-- Implement later
+        <div class="future">
+            <h3>Future Project Ideas</h3>
+    
+            <div class="survivor">
+                <h4>Survivor TV Show Website</h4>
+                <p>If you would like to learn more about Edgic and see examples of it, I recommend reading 
+                    <a href="https://insidesurvivor.com/survivor-edgic-an-introduction-3094">this</a> post.
+                </p>
+            </div>
+     
+    
+            <div class="visualizer">
+                <h4>Path Finding and Sorting Algorithm Visualizer</h4>
+            </div>
+    
+        </div>
+    -->
+    
+
+        <div class="contact" id="contact">
+            <h3>Contact Me</h3>
+            <p>Email:   KyleDOwens@tamu.edu</p>
+            <p>Phone:   (210)739-8644</p>
+            <p>Address: 711 University Dr, College Station, TX</p>
+        </div>
+    
+
+        <div class="footer">
+            <p>Author: Kyle Owens<br>Last updated: 5/27/2022</p>
+        </div>
+    </div>
+
+
+    <div class="sidebar">
+        <a href="https://tamu.edu">
+        <img src="tamu_logo_white.png" width="132" height="108"></a>
+        
+        <a href="#about">About Me</a>
+        <a href="#service">Service</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Porfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+.sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+    width: 160px;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 16px 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.sidebar a:hover {
+    color:rgba(255, 255, 255, 0.846)
+}
+
+
+
+
+
+
+.main {
+    background-color: #DDD;
+    margin: 0 0 -40px 150px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.banner {
+    font-size: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.894);
+    padding: 20px 0px 50px 0px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+    background-image: url("bigdata.png");
+    background-size: cover;
+}
+
+
+
+
+.about {
+    margin-left: 90px;
+    color: black;
+}
+
+.about h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.about p {
+    font-size: 20px;
+    margin: -370px 100px 0 320px;
+}
+
+
+
+
+.service {
+    color: black;
+    margin: 300px 0 8px 90px;
+}
+
+.service h3 {
+    font-size: 28px;
+}
+
+.service img {
+    margin: -500px 0 0 760px;
+}
+
+
+
+
+
+
+.tutoring h4 {
+    font-size: 24px;
+    margin: -20px 500px 0 0px;
+}
+
+.tutoring p {
+    font-size: 16px;
+    margin: 0 500px 50px 0;
+}
+
+.band h4 {
+    font-size: 24px;
+    margin: -20px 500px 0 0px;
+}
+
+.band p {
+    font-size: 16px;
+    margin: 0 500px 50px 0;
+}
+
+
+
+
+
+.resume h3 {
+    font-size: 28px;
+    margin: 0px 100px 0 90px;
+}
+
+.resume p {
+    margin: 0 100px 0 90px;
+}
+
+
+
+
+
+.projects h3 {
+    font-size: 28px;
+    margin: 80px 0 0 90px;
+}
+
+
+
+
+.puzzle h4 {
+    font-size: 24px;
+    margin: 10px 100px 0 90px;
+}
+
+.puzzle p {
+    font-size: 16px;
+    margin: 0 100px 0 90px;
+}
+
+.puzzle iframe {
+    margin-left: 460px;
+    margin-top: 20px;
+}
+
+
+
+
+.secdi h4 {
+    font-size: 24px;
+    margin: 20px 100px 0 90px;
+}
+
+.secdi p {
+    font-size: 16px;
+    margin: 0 100px 0 90px;
+}
+
+.secdi iframe {
+    margin-left: 460px;
+}
+
+
+
+
+.website h4 {
+    font-size: 24px;
+    margin: 50px 100px 0 90px;
+}
+
+.website p {
+    font-size: 16px;
+    margin: 0 100px 0 90px;
+}
+
+.website iframe {
+    margin-left: 460px;
+}
+
+
+
+
+.contact {
+    margin: 100px 100px 0px 90px;
+}
+
+.contact h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+.footer {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 1px;
+    background-color: #DDD;
+    margin-top: 40px;
+}
+
