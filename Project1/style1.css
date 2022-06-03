@@ -101,13 +101,15 @@
 }
 
 
-
-.resume h3 {
+.qualifications h3 {
     font-size: 28px;
     margin: 0px 100px 0 90px;
 }
-.resume p {
+.qualifications p {
     margin: 0 100px 0 90px;
+}
+.resume p {
+    margin: 15px 100px 0 90px;
 }
 
 
