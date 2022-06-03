@@ -1,0 +1,406 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.sidebar {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: #ccccff;
+
+    width: 100%;
+    height: 72px;
+
+    font-family: cursive, sans-serif;
+    font-size: 16px;
+
+    border-bottom: 2px solid #b5b5ff;
+
+}
+.sidebar a {
+    float: left;
+    display: block;
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+
+    font-size: 28px;
+
+    margin-top: -5px;
+
+    padding: 19px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+}
+.sidebar a:hover {
+    color:rgb(235, 235, 235);
+    background-color: rgb(121, 132, 235);
+}
+.sidebar p {
+    color:rgb(235, 235, 235);
+    background-color: rgb(121, 132, 235);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    margin-top: 0;
+    padding: 0px 56px 44px 76px;
+
+    font-size: 20px;
+
+}
+.sidebar button {
+    margin-right: 155px;
+
+    position: fixed;
+    right: -25px;
+    top: 30px;
+
+    background-color: #71797E;
+    border: none;
+    padding: 10px 26px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    
+}
+.sidebar button:hover {
+    background-color: #646b6f;
+    right: -27px;
+    top: 28px;
+    border: 2px solid #71787b;
+}
+.logo img {
+    max-height: 72px; 
+    max-width: 72px;
+    background-color: rgb(121, 132, 235);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.main {
+    position: absolute;
+    top:0;
+    left:0;
+
+    margin-top: 80px;
+    padding: 0px;
+    background-color: #fffcea;
+
+    font-family: cursive;
+}
+
+
+
+.banner {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.about h3 {
+    text-align: center;
+    font-size: 36px;
+
+    margin-bottom: 5px;
+}
+.about img {
+    z-index: 2;
+    position: relative;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid black;
+    padding: 10px;
+
+    background-color: #ffa6a6;
+}
+.about p {
+    z-index: 1;
+    position: relative;
+    top: auto;
+    left: auto;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -40px;
+
+    padding: 50px 75px 50px 75px;
+
+    font-size: 24px;
+    text-align: center;
+
+    background-color: #ffcdb4;
+    border: 2px solid black;
+}
+
+
+.service {
+    margin-bottom: 650px;
+    margin-top: 100px;
+}
+.service h3 {
+    text-align: center;
+    font-size: 36px;
+
+    margin-bottom: 5px;
+}
+
+
+.tutoring {
+    z-index: 1;
+
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 50%;
+
+    background-color: #c3ffca;
+    padding: 20px 30px 211px 30px;
+
+    border: 2px solid black;
+    border-right: 0px;
+}
+.tutoring h4 {
+    text-align: center;
+    font-size: 36px;
+
+    margin-bottom: 5px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+.tutoring p {
+    text-align: justify;
+    font-size: 20px;
+
+    margin-top: 0;
+
+    padding-right: 80px;
+}
+
+
+.band { 
+    z-index: 2;
+
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 5%;
+
+    background-color: #c3ffca;
+    padding: 20px 30px 40px 30px;
+
+    border: 2px solid black;
+    border-left: 0px;
+}
+.band h4 {
+    text-align: center;
+    font-size: 36px;
+
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-top: 0;
+}
+.band p {
+    text-align: justify;
+    font-size: 20px;
+
+    margin-top: 0px;
+
+    padding-left: 80px;
+}
+.band img {
+    display: block;
+    margin-left: 28%;
+    margin-top: 10px;
+
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #ddffc3;
+}
+
+
+
+.resume {
+    text-align: center;
+    margin: 800px 5% 0 5%;
+}
+.resume h3 {
+    font-size: 36px;
+
+    margin-bottom: 15px;
+}
+.resume p {
+    font-size: 18px;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+    background-color: lightpink;
+    padding: 15px 0px;
+
+    border: 2px solid black;
+}
+.resume iframe {
+    margin-top: 10px;
+    width: 92%;
+}
+
+
+
+.projects {
+    margin-top: 100px;
+    margin-bottom: 1180px;
+}
+.projects h3 {
+    text-align: center;
+    
+    font-size: 36px;
+
+    margin-bottom: 10px;
+}
+
+
+.puzzle {
+    z-index: 3;
+
+    position: absolute;
+    left: 0;
+
+    margin-left: 33%;
+    margin-right: 33%;
+    padding: 25px 50px 100px 50px;
+
+    border: 2px solid black;
+    border-left: white;
+    border-right: white;
+    background-color: rgb(193, 239, 255);
+    
+}
+.puzzle h4 {
+    text-align: center;
+    font-size: 28px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.puzzle p {
+    text-align: justify;
+    font-size: 18px;
+}
+.videoWrapper {
+    z-index: 6;
+    position: absolute;
+    left: 34.25%;
+    margin-top: 815px;
+
+    background-color: rgb(210, 229, 255);
+    padding: 20px;
+
+    border: 2px solid black;
+}
+
+
+.secdi {
+    z-index: 4;
+
+    position: absolute;
+    left: 0;
+
+    margin-left: 5%;
+    margin-right: 66.5%;
+    padding: 25px 25px 200px 25px;
+
+    border: 2px solid black;
+    border-right: white;
+    background-color: lightcyan;
+
+}
+.secdi h4 {
+    text-align: center;
+    font-size: 28px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.secdi p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.website {
+    z-index: 5;
+
+    position: absolute;
+    left: 0;
+
+    margin-left: 66.5%;
+    margin-right: 5%;
+    padding: 25px 25px 125px 25px;
+
+    border: 2px solid black;
+    border-left: white;
+    background-color: rgb(195, 255, 255);
+}
+.website h4 {
+    text-align: center;
+    font-size: 28px;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.website p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+
+.contact {
+    text-align: center;
+
+    border: 2px solid black;
+    background-color: rgb(255, 245, 151);
+
+    margin: 1300px 37% 100px 37%;
+    padding: 0px 50px 40px 50px;
+}
+.contact h3 {
+    font-size: 36px;
+    margin-bottom: 28px;
+
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+}
+.contact p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
