@@ -1,6 +1,8 @@
 .container {
     width: 100%;
     height: auto;
+
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 
@@ -15,8 +17,7 @@
 
     width: 100%;
     height: 72px;
-
-    font-family: cursive, sans-serif;
+    
     font-size: 16px;
 
     border-bottom: 2px solid #b5b5ff;
@@ -101,8 +102,6 @@
     margin-top: 80px;
     padding: 0px;
     background-color: #fffcea;
-
-    font-family: cursive;
 }
 
 
